@@ -1,0 +1,558 @@
+.company-legal-name-c {
+  width: 100%;
+  position: relative;
+  letter-spacing: 0.2px;
+  display: inline-block;
+  height: auto;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 2rem;
+}
+.title {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  color: #007700;
+}
+.business-info {
+  flex: 1;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px 2rem;
+  box-sizing: border-box;
+}
+.logo-1-icon {
+  width: 120px;
+  position: relative;
+  height: auto;
+  object-fit: contain;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 2rem;
+  box-sizing: border-box;
+  gap: 10px;
+  align-items: center;
+}
+@media (max-width: 530px) {
+    .header {
+      flex-direction: column-reverse !important; 
+    }
+    .business-info{
+        align-items: center;
+    }
+    .company-legal-name-c {
+        text-align: center;
+    }
+  }
+.health-assesment {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+.time-in-business-new-c {
+  position: relative;
+  letter-spacing: 0.2px;
+}
+.time-in-business-new-c-wrapper {
+  align-self: stretch;
+  border-right: 1px solid #d1d1d0;
+  border-bottom: 1px solid #d1d1d0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+}
+.underwriting-fico-score-c-wrapper {
+  align-self: stretch;
+  border-right: 1px solid #d1d1d0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 0px;
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 1.5rem;
+}
+.health-assesment-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: left;
+}
+.time-in-business-new-c-container {
+  align-self: stretch;
+  border-right: 1px solid #d1d1d0;
+  border-bottom: 1px solid #d1d1d0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0px;
+}
+.underwriting-fico-score-c-container {
+  align-self: stretch;
+  border-right: 1px solid #d1d1d0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0px;
+}
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 1.5rem;
+}
+.business-details-parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.gauge-green-high-risk-1-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 222px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.gauge-green-high-risk-1-parent {
+  width: 380px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2rem;
+  color: #007700;
+}
+.health-level-parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 64px;
+}
+.table {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.business-health-summary-sectio {
+  width: 100%;
+  background-color: #f3f2f1;
+  border-bottom: 2px solid #97c35f;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px 2rem;
+  color: #000;
+}
+.company-cash-flow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+@media (max-width: 767px) {
+    .company-cash-flow {
+        display: flex ;
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+      }
+  }
+.subtitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  color: #2e456d;
+}
+.deposits {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.2px;
+}
+.month-1-deposits {
+  align-self: stretch;
+  position: relative;
+  font-size: 2.5rem;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  color: #cb7b29;
+}
+.month-1-adbs {
+  align-self: stretch;
+  position: relative;
+  font-size: 2.5rem;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  color: #f8991d;
+}
+.numbers {
+  align-self: stretch;
+  border-right: 1px solid #dddddc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.month-name {
+  align-self: stretch;
+  position: relative;
+  font-size: 1.5rem;
+  letter-spacing: 0.2px;
+  color: #808080;
+}
+.month {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 24px;
+  gap: 24px;
+}
+.month-1-deposits1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 2.5rem;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  color: #007700;
+}
+.month-2-adbs {
+  align-self: stretch;
+  position: relative;
+  font-size: 2.5rem;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  color: #97c35f;
+}
+.month-1-deposits2 {
+  align-self: stretch;
+  position: relative;
+  font-size: 2.5rem;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  color: #2e456d;
+}
+.month-3-adbs {
+  align-self: stretch;
+  position: relative;
+  font-size: 2.5rem;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  color: #3c5c92;
+}
+.numbers2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.graphics {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+@media (max-width: 767px) {
+  .graphics {
+    align-self: stretch;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .numbers {
+    border-right: none;
+  }
+  .month-name {
+    border-bottom: 1px solid #dddddc;
+  }
+}
+
+.important-icon {
+  width: 56px;
+  position: relative;
+  height: 56px;
+}
+p.important {
+  font-size: 1rem;
+}
+.paragraph {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+}
+.note {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-size: 24px;
+}
+.financial-performance-section {
+  align-self: stretch;
+  background-color: #f3f2f1;
+  border-bottom: 2px solid #97c35f;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px 40px;
+  gap: 26px;
+  text-align: left;
+  color: #000;
+}
+.lorem-ipsum-dolor-sit-amet-con {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1rem;
+  padding-left: 27px;
+}
+.paragraph-txt {
+  width: 100%;
+}
+.paragraph1 {
+  width: 100%;
+  position: relative;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+}
+.recommendation-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 1rem;
+  color: #000;
+}
+.recommendations-to-improve {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 2px solid #aacc88;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px 40px;
+  gap: 24px;
+  text-align: left;
+}
+
+.somewhere-street {
+  margin: 0;
+}
+.h31 {
+  width: 300px;
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.one-park-address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+  color: #000;
+}
+.footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 2rem;
+}
+@media (max-width:630px) {
+    .footer {
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 2rem;
+        align-items: center;
+    }
+}
+
+.wireframe-green-high-risk {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #2e456d;
+  font-family: Poppins;
+}
+a {
+  color: #3c5c92;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+}
+a:hover {
+  color: #007700;
+  text-decoration: underline;
+}
+
+/*Table*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+  border-top: none; /* Oculta el borde superior */
+  border-left: none; /* Oculta el borde izquierdo */
+}
+th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+td.time-in-business-new-c,
+td.processing_industry__c,
+td.average_deposits_del__c,
+td.avg_deposits__c,
+td.MCK_of_Rev__c,
+td.Underwriting_FICO_Score__c {
+  position: relative;
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: 600;
+}
+td:last-child {
+  text-align: center;
+}
+p.Gauge-Text {
+  color: green;
+  font-weight: bold;
+}
+img {
+  width: 100%;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    tr {
+      display: table-row;
+      width: 100%;
+    }
+  
+    th, td {
+      display: table-cell;
+      white-space: nowrap;
+    }
+  
+    td img {
+      width: auto;
+      max-width: 100%;
+    }
+  }
+
+/* General Print Styles */
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .page {
+    page-break-before: always; /* Force a new page before each section */
+    page-break-inside: avoid; /* Prevent content from breaking within a section */
+  }
+
+  h1 {
+    font-size: 24pt; /* Adjust heading size for print */
+    margin-bottom: 10mm;
+  }
+
+  p {
+    font-size: 12pt;
+    margin-bottom: 5mm;
+  }
+
+  /* Optional: Hide elements that shouldn't appear in print */
+  .no-print {
+    display: none;
+  }
+}

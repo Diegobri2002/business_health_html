@@ -1,0 +1,599 @@
+.company-legal-name-c {
+    width: 629px;
+    position: relative;
+    letter-spacing: 0.2px;
+    display: inline-block;
+    height: 62px;
+    flex-shrink: 0;
+}
+.title {
+    position: relative;
+    font-size: 39px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    color: var(--color-green);
+}
+.business-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 16px var(--padding-13xl);
+}
+.logo-1-icon {
+    width: 235px;
+    position: relative;
+    height: 137px;
+    object-fit: cover;
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px var(--padding-13xl);
+    box-sizing: border-box;
+    gap: var(--gap-3xs);
+    font-size: var(--font-size-36xl);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-top: none; /* Oculta el borde superior */
+    border-left: none; /* Oculta el borde izquierdo */
+}
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+td.time-in-business-new-c, 
+td.processing_industry__c, 
+td.average_deposits_del__c,
+td.avg_deposits__c,
+td.MCK_of_Rev__c,
+td.Underwriting_FICO_Score__c {
+    position: relative;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-weight: 600;
+}
+td:last-child {
+    text-align: center; /* Centra el texto y contenido en la última columna */
+}
+img {
+    display: block; /* Elimina el espacio inferior que normalmente aparece con imágenes en línea */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al tamaño de la celda */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
+
+.health-assesment {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+}
+.time-in-business-new-c {
+    position: relative;
+    letter-spacing: 0.2px;
+}
+.time-in-business-new-c-wrapper {
+    align-self: stretch;
+    border-right: 1px solid var(--color-lightgray);
+    border-bottom: 1px solid var(--color-lightgray);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) 0px;
+}
+.underwriting-fico-score-c-wrapper {
+    align-self: stretch;
+    border-right: 1px solid var(--color-lightgray);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) 0px;
+}
+.frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    font-size: var(--font-size-5xl);
+}
+.health-assesment-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    text-align: left;
+}
+.time-in-business-new-c-container {
+    align-self: stretch;
+    border-right: 1px solid var(--color-lightgray);
+    border-bottom: 1px solid var(--color-lightgray);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) 0px;
+}
+.underwriting-fico-score-c-container {
+    align-self: stretch;
+    border-right: 1px solid var(--color-lightgray);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) 0px;
+}
+.frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    font-size: var(--font-size-5xl);
+}
+.risk-level-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+}
+.gauge-green-high-risk-1-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 222px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.gauge-green-high-risk-1-wrapper {
+    width: 380px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.risk-score-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 64px;
+}
+.table {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+} 
+.business-health-summary-sectio {
+    width: 100%;
+    background-color: var(--color-whitesmoke);
+    border-bottom: 1px solid var(--color-olivedrab);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xl) var(--padding-13xl);
+    color: var(--color-black);
+}
+.financial-performance {
+    flex: 1;
+    position: relative;
+    font-size: 27.5px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    color: var(--color-steelblue-200);
+}
+.company-legal-name-c {
+    position: relative;
+    letter-spacing: 0.2px;
+}
+.financial-performance-parent {
+    width: 819px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.march {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.2px;
+}
+.frame-child {
+    align-self: stretch;
+    border-right: 1px solid var(--color-lightgray);
+    border-bottom: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    height: 48.5px;
+    z-index: 0;
+}
+.frame-item {
+    align-self: stretch;
+    border-right: 1px solid var(--color-lightgray);
+    border-bottom: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    height: 48.5px;
+    z-index: 1;
+}
+.frame-inner {
+    align-self: stretch;
+    border-right: 1px solid var(--color-lightgray);
+    border-bottom: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    height: 48.5px;
+    z-index: 2;
+}
+.frame-div {
+    align-self: stretch;
+    border-right: 1px solid var(--color-lightgray);
+    border-bottom: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    height: 48.5px;
+    z-index: 3;
+}
+.frame-child1 {
+    align-self: stretch;
+    border-right: 1px solid var(--color-lightgray);
+    border-bottom: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    height: 48.5px;
+    z-index: 4;
+}
+.rectangle-div {
+    width: 159px;
+    position: absolute;
+    margin: 0 !important;
+    top: 24px;
+    left: 62px;
+    background-color: var(--color-peru);
+    height: 276.4px;
+    z-index: 5;
+}
+.frame-child2 {
+    width: 159px;
+    position: absolute;
+    margin: 0 !important;
+    top: 172px;
+    left: 259px;
+    background-color: var(--color-orange);
+    height: 131.6px;
+    z-index: 6;
+}
+.frame-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: var(--gap-base);
+}
+.month-1-deposits {
+    position: relative;
+    font-size: var(--font-size-36xl);
+    letter-spacing: 0.2px;
+    color: var(--color-peru);
+}
+.div {
+    position: relative;
+    font-size: var(--font-size-36xl);
+    letter-spacing: 0.2px;
+    color: var(--color-orange);
+}
+.deposits-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    text-align: left;
+}
+.march-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+}
+.frame-child8 {
+    width: 159px;
+    position: absolute;
+    margin: 0 !important;
+    top: 12px;
+    left: 31.33px;
+    background-color: var(--color-green);
+    height: 292.3px;
+    z-index: 5;
+}
+.frame-child9 {
+    width: 159px;
+    position: absolute;
+    margin: 0 !important;
+    top: 165px;
+    left: 232.33px;
+    background-color: var(--color-olivedrab);
+    height: 139.1px;
+    z-index: 6;
+}
+.frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    gap: var(--gap-base);
+}
+.month-1-deposits1 {
+    position: relative;
+    font-size: var(--font-size-36xl);
+    letter-spacing: 0.2px;
+    color: var(--color-green);
+}
+.div1 {
+    position: relative;
+    font-size: var(--font-size-36xl);
+    letter-spacing: 0.2px;
+    color: var(--color-olivedrab);
+}
+.frame-child15 {
+    width: 159px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -0.1px;
+    left: 43.67px;
+    background-color: var(--color-steelblue-200);
+    height: 283.1px;
+    z-index: 5;
+}
+.frame-child16 {
+    width: 159px;
+    position: absolute;
+    margin: 0 !important;
+    top: 181px;
+    left: 234px;
+    background-color: var(--color-steelblue-100);
+    height: 123px;
+    z-index: 6;
+}
+.month-1-deposits2 {
+    position: relative;
+    font-size: var(--font-size-36xl);
+    letter-spacing: 0.2px;
+    color: var(--color-steelblue-200);
+}
+.div2 {
+    position: relative;
+    font-size: var(--font-size-36xl);
+    letter-spacing: 0.2px;
+    color: var(--color-steelblue-100);
+}
+.graphics {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+.financial-performance-section {
+    width: 100%;
+    position: relative;
+    background-color: #f3f2f1;
+    border-bottom: 1px solid var(--color-olivedrab);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 40px;
+    gap: 26px;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+}
+
+
+.lorem-ipsum-dolor-sit-amet-con {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-8xl);
+}
+.lorem-ipsum-dolor-container1 {
+    width: 100%;
+}
+.lorem-ipsum-dolor-container {
+    width: 100%;
+    position: relative;
+    letter-spacing: 0.2px;
+    display: flex;
+    align-items: center;
+}
+.lorem-ipsum-dolor-sit-amet-con-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+}
+.oneparkfinancialcom {
+    position: relative;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+}
+.oneparkfinancialcom-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.somewhere-street-coconut-container1 {
+    width: 100%;
+}
+.somewhere-street-coconut-container {
+    width: 300px;
+    position: relative;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.somewhere-street-coconut-grove-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 24px;
+    color: #000;
+}
+.disclaimers {
+    position: relative;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    }
+.recommendations-to-improve {
+    width: 100%;
+    align-self: stretch;
+    background-color: var(--color-white);
+    box-sizing: border-box;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xl) var(--padding-21xl);
+    gap: var(--gap-5xl);
+}
+.wireframe-green-high-risk {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: var(--font-size-8xl-5);
+    color: var(--color-steelblue-200);
+    font-family: var(--font-poppins);
+}
+.frame-parent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: var(--font-size-8xl-5);
+    color: var(--color-steelblue);
+    font-family: var(--font-poppins);
+    }
+a {
+    color: #3c5c92;
+    text-decoration: none;
+}
+a:hover {
+    color: #007700;
+    text-decoration: underline;
+}
+
+/*Graphics*/
+.board{
+    margin: auto;
+    width: 100%;
+    height: 450px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.cont_board{
+    width: 100%;
+    height: 80%;
+}
+.graf_board{
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin-top: 0px;
+    background-color: darkgrey;
+    border-left: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    box-sizing: border-box;
+    display: flex;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,
+    rgba(0,0,0,0) 9.5%,  rgba(0,0,0,0.3) 10%, rgba(0,0,0,0) 10.5%, 
+    rgba(0,0,0,0) 19.5%, rgba(0,0,0,0.3) 20%, rgba(0,0,0,0) 20.5%, 
+    rgba(0,0,0,0) 29.5%, rgba(0,0,0,0.3) 30%, rgba(0,0,0,0) 30.5%, 
+    rgba(0,0,0,0) 39.5%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0) 40.5%, 
+    rgba(0,0,0,0) 49.5%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 50.5%, 
+    rgba(0,0,0,0) 59.5%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0) 60.5%, 
+    rgba(0,0,0,0) 69.5%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 70.5%, 
+    rgba(0,0,0,0) 79.5%, rgba(0,0,0,0.3) 80%, rgba(0,0,0,0) 80.5%, 
+    rgba(0,0,0,0) 89.5%, rgba(0,0,0,0.3) 90%, rgba(0,0,0,0) 90.5%, 
+    rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=0 );
+}
+.barra{
+    width: 100%;
+    height: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.sub_barra{
+    width: 100%;
+    height: 80%;
+}
+.b1{ height: 276.35px; background: #CB7B29;}
+.b2{ height: 131.6px; background: #F8991D;}
+.b3{ height: 292.25px; background: #007700;}
+.b4{ height: 139.14px; background: #97C35F;}
+.b5{ height: 283.13px; background: #2E456D;}
+.b6{ height: 123px; background: #3C5C92;}
